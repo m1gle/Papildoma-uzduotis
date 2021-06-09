@@ -7,6 +7,6 @@ Veikimas: \
 - Sukuria _cross-reference_ tipo lentelę, kurioje yra nurodyta, kurioje teksto vietoje (teksto eilutėje) kiekvienas iš daugiau negy vieną kartą pasikartojančių žodžių yra paminėtas.
 
 Įdiegimo instrukcija: \
-Atsisiųsti _release ir jį išarchivuoti. Terminale nuėjus į išarchivuotą aplanką atlikti:
+Atsisiųsti _release ir jį išarchivuoti. Terminale nuėjus į išarchivuotą aplanką atlikti: \
 g++ main.cpp -o main \
 ./main
