@@ -8,5 +8,5 @@ Veikimas: \
 
 Įdiegimo instrukcija: \
 Atsisiųsti _release ir jį išarchivuoti. Terminale nuėjus į išarchivuotą aplanką atlikti:
-g++ main.cpp -o main
+g++ main.cpp -o main \
 ./main
