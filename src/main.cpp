@@ -46,6 +46,17 @@ void spausdinti (multimap<string, int> zodziai) {
     fileof.close();
 }
 
+void spausdintiURL (vector<string> linkai) {
+    if(linkai.size() < 1) cout<<"URL adresu tekste nera."<<endl;
+    else {
+        cout<<"Tekste rasti URL adresai: "<<endl;
+        for (int i = 0; i < linkai.size(); i++)
+        {
+            cout<<linkai[i]<< endl;
+        }
+    }
+}
+
 void spausdintiLentele (multimap<string, int> zodziai, int stulp){
     int j;
     int x = 1;
@@ -74,17 +85,6 @@ void spausdintiLentele (multimap<string, int> zodziai, int stulp){
         }
     }
     fileof.close();
-}
-
-void spausdintiURL (vector<string> linkai) {
-    if(linkai.size() < 1) cout<<"URL adresu tekste nera."<<endl;
-    else {
-        cout<<"Tekste rasti URL adresai: "<<endl;
-        for (int i = 0; i < linkai.size(); i++)
-        {
-            cout<<linkai[i]<< endl;
-        }
-    }
 }
 
 int main () {
